@@ -13,6 +13,7 @@ return {
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
     { '<leader>e', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<C-n>', ':Neotree reveal toggle<CR>', desc = 'NeoTree reveal toggle', silent = true },
   },
   opts = {
     filesystem = {
